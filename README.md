@@ -4,7 +4,7 @@
 
 This is a Node.js WebSocket server designed to facilitate real-time communication between an ESP32 microcontroller and a client. The ESP32 establishes a WebSocket connection with the server, and messages sent by the client are relayed to the ESP32.
 
-##**Project structure: **
+## Project structure:
 ```
 ESP32_WebSocket_Server/
 │── server.js             # Main WebSocket server
