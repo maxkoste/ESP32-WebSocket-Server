@@ -16,21 +16,23 @@ Requirements
 	•	Node.js (>=16.x)
 	•	ws (WebSocket library for Node.js)
 
-	1.	Clone the repository:
+	
+1: Clone the repository:
 
-  git clone https://github.com/maxkoste/ESP32_server_project.git
-  cd ESP32_server_project
+  `git clone https://github.com/maxkoste/ESP32_server_project.git`
+  `cd ESP32_server_project`
 
-	2.	Install dependencies:
+2: Install dependencies:
+	`npm install ws`
+ 
+ 
+3: Run the websocket server
 
-  npm install ws
+ 	node server.js
 
- 	3.	Run the WebSocket server:
 
-  node server.js
-
-  	4.	ESP32 Connection:
-  •	The ESP32 should connect to the server at ws://<server-ip>:8080.
+ ESP32 Connection:
+  	•	The ESP32 should connect to the server at ws://<server-ip>:8080.
 	•	Any message sent from a client will be forwarded to the ESP32.
 
  Usage
@@ -39,7 +41,7 @@ Requirements
 	•	Logs will display incoming and forwarded messages.
 
 Example Output:
-
+```
 Client connected!
 ESP32 connected!
 Received message from client: Hello ESP32!
