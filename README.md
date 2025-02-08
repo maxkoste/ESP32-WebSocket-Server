@@ -34,13 +34,16 @@ ESP32_WebSocket_Server/
 
 
  ## **ESP32 Connection:**
-  	•	The ESP32 should connect to the server at ws://<server-ip>:8080.
-	•	Any message sent from a client will be forwarded to the ESP32.
+  •	The ESP32 should connect to the server at ws://<server-ip>:8080.
+  
+  •	Any message sent from a client will be forwarded to the ESP32.
 
  ## **Usage**
-	•	The ESP32 connects as the first client and is recognized as the main WebSocket device.
-	•	Other clients can connect and send messages to the ESP32 through the server.
-	•	Logs will display incoming and forwarded messages.
+•	The ESP32 connects as the first client and is recognized as the main WebSocket device.
+
+•	Other clients can connect and send messages to the ESP32 through the server.
+
+•	Logs will display incoming and forwarded messages.
 
 ## **Example Output:**
 ```
