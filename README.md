@@ -11,7 +11,7 @@ ESP32_WebSocket_Server/
 │── package.json          # Node.js dependencies
 │── README.md             # Documentation
 ```
-## ** Dependencies:**
+## **Dependencies:**
 
 •	Node.js (>=16.x)
 
