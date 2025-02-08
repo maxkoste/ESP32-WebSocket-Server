@@ -1,21 +1,24 @@
-ESP32 WebSocket Server
+# **ESP32 WebSocket Server**
 
-Overview
+## **Overview**
 
 This is a Node.js WebSocket server designed to facilitate real-time communication between an ESP32 microcontroller and a client. The ESP32 establishes a WebSocket connection with the server, and messages sent by the client are relayed to the ESP32.
 
-Project structure: 
+##**Project structure: **
 ```
 ESP32_WebSocket_Server/
 │── server.js             # Main WebSocket server
 │── package.json          # Node.js dependencies
 │── README.md             # Documentation
 ```
-📦 Dependencies:
+## ** Dependencies:**
 
-•	Node.js (>=16.x) \n
+•	Node.js (>=16.x)
+
 •	ws (WebSocket library for Node.js)
-	
+
+## ** Installation and setup **
+
 1: Clone the repository:
 ```
   git clone https://github.com/maxkoste/ESP32_server_project.git
