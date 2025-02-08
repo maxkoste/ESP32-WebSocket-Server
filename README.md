@@ -13,9 +13,8 @@ ESP32_WebSocket_Server/
 ```
 📦 Dependencies:
 
-	•	Node.js (>=16.x)
-	•	ws (WebSocket library for Node.js)
-
+•	Node.js (>=16.x)
+•	ws (WebSocket library for Node.js)
 	
 1: Clone the repository:
 ```
