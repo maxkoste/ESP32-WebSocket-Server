@@ -23,9 +23,9 @@ Requirements
   cd ESP32_server_project
 ```
 2: Install dependencies:
-	
- `npm install ws`
- 
+```	
+ npm install ws
+``` 
 3: Run the websocket server
 
  	node server.js
