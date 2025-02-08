@@ -18,13 +18,13 @@ Requirements
 
 	
 1: Clone the repository:
-
-  `git clone https://github.com/maxkoste/ESP32_server_project.git`
-  `cd ESP32_server_project`
-
+```
+  git clone https://github.com/maxkoste/ESP32_server_project.git
+  cd ESP32_server_project
+```
 2: Install dependencies:
-	`npm install ws`
- 
+	
+ `npm install ws`
  
 3: Run the websocket server
 
